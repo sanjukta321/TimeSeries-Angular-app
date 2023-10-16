@@ -1,0 +1,58 @@
+<!-- <p>timeseries works!</p> -->
+<div class="container">
+<h2>
+    Enter Amount For Today's Sales
+</h2>
+Timestamp :
+<input type="datetime-local" >
+<br><br>
+Amount 1:
+<input type="number" [(ngModel)]="amount1">
+<br><br>
+Amount 2:
+<input type="number" [(ngModel)]="amount2">
+<br><br>
+Amount 3:
+<input type="number" [(ngModel)]="amount3">
+<br><br>
+Amount 4:
+<input type="number" [(ngModel)]="amount4" >
+<br><br>
+Amount 5:
+<input type="number" [(ngModel)]="amount5">
+<br><br>
+Amount 6:
+<input type="number" [(ngModel)]="amount6" >
+<br><br>
+Amount 7:
+<input type="number" [(ngModel)]="amount7">
+<br><br>
+Amount 8:
+<input type="number" [(ngModel)]="amount8">
+<br><br>
+Amount 9:
+<input type="number" [(ngModel)]="amount9" >
+<br><br>
+Amount 10:
+<input type="number" [(ngModel)]="amount10">
+<br><br>
+<button class="btn btn-primary" (click)="onSubmit()">Submit</button>
+
+<br><br>
+<h1> Sales for Today</h1>
+</div>
+<div class="container">
+    <div style="width:100%;">
+     <canvas id="myChart" width="700" height="250" #mychart></canvas>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
